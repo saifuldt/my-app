@@ -6,7 +6,7 @@ function App() {
       <div className="flex justify-center items-center bg-slate-400 p-2 rounded-lg ">
       
       <div className="flex flex-col justify-center items-center gap-1">
-      <img className='w-[100px] h-[100px] rounded-full' src="/src/assets/mypic.jpg" alt="img" />
+      <img className='w-[100px] h-[100px] rounded-full' src="./src/assets/mypic.jpg" alt="img" />
         <Button/>
         </div>
       <div className="profile px-2 uppercase">
