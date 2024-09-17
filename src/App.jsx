@@ -1,6 +1,6 @@
 
 import Button from './component/Button';
-import Card from './component/Card';
+import Cards from './component/Cards';
 import Footer from './component/Footer';
 import Navbar from './component/Navbar';
 
@@ -9,21 +9,7 @@ function App() {
     <>
       <Navbar />
       <Button />
-      <div className="flex justify-around">
-        <Card />
-        <Card />
-        <Card />
-      </div>
-      <div className="flex justify-around">
-        <Card />
-        <Card />
-        <Card />
-      </div>
-      <div className="flex justify-around">
-        <Card />
-        <Card />
-        <Card />
-      </div>
+      <Cards/>
       <Footer/>
 
     </>
