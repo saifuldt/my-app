@@ -2,7 +2,7 @@
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-200">
+    <div className="navbar bg-base-300">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
@@ -29,10 +29,10 @@ const Navbar = () => {
     </div>
   </div>
   <div className="navbar-center">
-    <a className="btn btn-ghost text-2xl font-bold">Shoes Store</a>
+    <a className="btn btn-ghost text-2xl font-bold bg-[#F57E20] text-[#717076] ">Shoes Store</a>
   </div>
   <div className="navbar-end">
-    <input className="text-center" type="text" />
+    <input className="text-center hidden md:block w-64 h-10 rounded-lg " type="text" />
     <button className="btn btn-ghost btn-circle">
       <svg
         xmlns="http://www.w3.org/2000/svg"

@@ -1,5 +1,5 @@
 
-const Button = () => {
+const Slide = () => {
   return (
     <div className="carousel w-full">
   <div id="slide1" className="carousel-item relative w-full">
@@ -42,4 +42,4 @@ const Button = () => {
   )
 }
 
-export default Button
+export default Slide
